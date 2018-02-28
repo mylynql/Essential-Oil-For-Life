@@ -1,102 +1,79 @@
+/* webcoder assignment CSS */
 
 /*  ----- HTML Body Styles -----  */
-body {
-    /* background-color:cyan; */
-    /* background-color: white; */
-    /* position: relative; */
-    /* margin: 0; */
-    /* min-height: 100%; */
-    font-family: Arial, Helvetica, sans-serif; 
-    /* font-size: 28px; */ 
-    padding-top: 70px;    
-      } 
-  
-  /* Box-sizing */
-  .selector-for-some-widget {
-      box-sizing: content-box;
-  }
-  
-  /* LAYOUT - Responsive breakpoints */
-  /* // Extra small devices (portrait phones, less than 576px) */
-  @media (max-width: 575px) {  
-  
-  }
-  
-    /* For Padding for top navbar fixed  */
-  
-  html {
-    height: 100%;
-    box-sizing: border-box;
-  }
-  
-  /* Responsive typography */
-  html {
-      font-size: 14px;
-    }
-     
-  @media (min-width: 576px) and (max-width: 767px) {  
-  
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (min-width: 768px) and (max-width: 991px) {  
-  
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) and (max-width: 1199px) {  
-      
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {  
-  
-  }
-  
-  /* Row5 Contact Me  */
-  .bkheight {
-    max-height: 250px;
-  }
-  
-  
-  .dropdown .dropdown-menu {
-    /* background-color: transparent; */
-    background-color:rgba(255, 255, 255, 0.6);  
-  }
-  
-  .jumbotron {  /* background-color: #17234E; */
-    /* background-image: url("images/Hello Kitty banner1.gif");
-    width: 100%; /* make sure to define width to fill container */
-    /* height: 620px; define the height in pixels or make sure */
-    background-image: url("EOcover.pg.png");
-    height:560px; 
-    /* width:100%; */
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 1400px; 
-    /* padding-top: 50px; */
-    color: white
-  }
-  
-  .my-container {
-    border: 2px solid white;
-  }
-  /* EO Row1 & Row4 */
-  .display-3{
-    font-size: 12px;
-    font-family: Arial white;
-    /* text-align: center */
+body 
+/* Navigation html */
+{
+  position: relative;
+  margin: 0;
+  /* padding-bottom: 6rem; */
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  Padding for top navbar fixed
+  padding-top: 70px; 
+  font-size: 15px;
+}
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Box-sizing */
+.selector-for-some-widget { 
+  box-sizing: content-box;
   }
   
-  /* Adding Card-header: subcrible ot blue */
-  .card-header {
-    background-color:blue !important;
-    text-align:center;
+.bkheight {
+    max-height: 250px;
+  } 
+
+.row{
+    font-family: Arial Black;
+    font-style: normal;
+  } 
+
+/* .dropdown .dropdown-menu { 
+    /* background-color: transparent; 
+    background-color:rgba(240, 122, 220, 0.6);  
+  }*/
+
+.jumbotron {  /* background-color: #17234E; */
+  /* background-image: url("images/Hello Kitty banner1.gif");
+  width: 100%; /* make sure to define width to fill container */
+  /* height: 620px; define the height in pixels or make sure */
+  background-image: url("EOcover.pg.png");
+  height:560px; 
+  /* width:100%; */
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1400px; 
+  /* padding-top: 50px; */
+  color: white
+}
+/* .jumbotitle { */
+    font-size: 100px;
+    font-weight: 500;
+    /* text-shadow: 2px 2px 0 #CF1414; */
+    /* font-family: 'tahoma'; */
+} 
+
+.my-container {
+    border: 2px solid black;
+  } 
+
+  /* .display { */
+    font-size: 12px;
+    font-family: Arial Black;
+  } 
+
+/* Adding Card-header: I am interested */
+.card-header {
+  background-color: blue !important;
+  text-align:center;
   }
-  
-  
+
   #dialogoverlay {
     display: none;
     opacity: 0.8;
@@ -107,7 +84,7 @@ body {
     width: 100%;
     z-index: 10;
   }
-  
+
   #dialogbox {
     display: none;
     position: fixed;
@@ -116,65 +93,104 @@ body {
     width: 550px;
     z-index: 10;
   }
-  
+
   #dialogbox>div {
     background: #FFF;
     margin: 8px;
   }
-  
-  #dialogbox>div>#dialogboxhead {
+
+  /* #dialogbox>div>#dialogboxhead { 
     background: #666;
     font-size: 19px;
     padding: 10px;
     color: #ccc;
-  }
-  
+  }*/
+
   #dialogbox>div>#dialogboxbody {
     background: #333;
     padding: 20px;
     color: #FFF;
+    text-align: center;
   } 
-  
+
   #dialogbox>div>#dialogboxfoot {
     background: #666;
     padding: 10px;
-    text-align: right;
-  }
-  
-  
-  /* My Photo */
-  .my-face {
-    display: block;
-    height: 150px;
-    width: 150px;
-    border-radius:12px;
-    Border: 1px solid #aaa;
-    margin: auto;
-    }
+    text-align: center;
+  } 
 
-    /* ROW2: About EO  */
-  .container-fluid{
+  /* Row2 frame background */
+  /* .container-fluid{ 
     font-size: 8px;
     font-family: Arial Black;
-    /* background-color: rgba(255, 192, 203, 0.8); */
+    background-color: rgba(255, 192, 203, 0.8);
     font-style: normal;
+  } 
+
+/* Contact me: My Photo */
+  .my-face {
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius:12px;
+  Border: 1px solid #aaa;
+  margin: auto;
+  }
+   
+/* Start of Footer */
+.design{
+  font-family: Arial;
+  color: white;
+  text-align: center;
+  }
+
+/* Responsive typography */
+html {
+    font-size: 14px;
   }
   
-  /* All row  */
-  .row{
-    font-family: Arial Black;
-    font-style: normal;
-  }
-  
-  /* Start of Footer */
-  .design{
-    font-family: Arial;
-    color: blue;
-    text-align: center;
-  }
+  @include media-breakpoint-up(sm) 
+    html {
+      font-size: 16px;
+    }
   
   
+  @include media-breakpoint-up(md) 
+    html {
+      font-size: 20px;
+    }
+
   
+  @include media-breakpoint-up(lg)
+    html {
+      font-size: 28px;
+    }
   
-  
-  
+
+/* LAYOUT - Responsive breakpoints */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {  
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {  
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {  
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {  
+    
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}
+
+/* GRID -  */
