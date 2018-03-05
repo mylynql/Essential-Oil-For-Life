@@ -1,12 +1,12 @@
 /* webcoder assignment CSS */
 
 /*  ----- HTML Body Styles -----  */
+
 body 
-/* Navigation html */
+/* Navigation html */ 
 {
   position: relative;
   margin: 0;
-  /* padding-bottom: 6rem; */
   min-height: 100%;
   font-family: "Helvetica Neue", Arial, sans-serif;
   Padding for top navbar fixed
@@ -14,34 +14,25 @@ body
   font-size: 15px;
 }
 
-html {
+html 
+{
   height: 100%;
   box-sizing: border-box;
 }
 
-/* Box-sizing */
-.selector-for-some-widget { 
-  box-sizing: content-box;
-  }
-  
-.bkheight {
-    max-height: 250px;
-  } 
-
-.row{
+.row { 
     font-family: Arial Black;
     font-style: normal;
   } 
 
-.dropdown .dropdown-menu { 
+/* Dropdown Link   */
+.dropdown .dropdown-menu 
+{ 
   background-color: transparent; 
     background-color:rgba(240, 122, 220, 0.6);  
   }
 
-.jumbotron {  /* background-color: #17234E; */
-  /* background-image: url("images/Hello Kitty banner1.gif");
-  width: 100%; /* make sure to define width to fill container */
-  /* height: 620px; define the height in pixels or make sure */
+.jumbotron {
   background-image: url("EOcover.pg.png");
   height:560px; 
   /* width:100%; */
@@ -58,10 +49,6 @@ html {
     /* text-shadow: 2px 2px 0 #CF1414; */
     /* font-family: 'tahoma'; */
 } 
-
-.my-container {
-    border: 2px solid black;
-  } 
 
   /* .display { */
     font-size: 12px;
@@ -117,14 +104,6 @@ html {
     background: #666;
     padding: 10px;
     text-align: center;
-  } 
-
-  /* Row2 frame background */
-  /* .container-fluid{ 
-    font-size: 8px;
-    font-family: Arial Black;
-    background-color: rgba(255, 192, 203, 0.8);
-    font-style: normal;
   } 
 
 /* Contact me: My Photo */
@@ -194,3 +173,4 @@ html {
 }
 
 /* GRID -  */
+
