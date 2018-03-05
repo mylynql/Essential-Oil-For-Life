@@ -33,10 +33,10 @@ html {
     font-style: normal;
   } 
 
-/* .dropdown .dropdown-menu { 
-    /* background-color: transparent; 
+.dropdown .dropdown-menu { 
+  background-color: transparent; 
     background-color:rgba(240, 122, 220, 0.6);  
-  }*/
+  }
 
 .jumbotron {  /* background-color: #17234E; */
   /* background-image: url("images/Hello Kitty banner1.gif");
@@ -99,12 +99,12 @@ html {
     margin: 8px;
   }
 
-  /* #dialogbox>div>#dialogboxhead { 
+  #dialogbox>div>#dialogboxhead { 
     background: #666;
     font-size: 19px;
     padding: 10px;
     color: #ccc;
-  }*/
+  }
 
   #dialogbox>div>#dialogboxbody {
     background: #333;
